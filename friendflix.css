@@ -1,0 +1,167 @@
+ul.nav{
+  margin:0;
+  padding:0;
+
+}
+ul.nav li{
+  list-style-type:none;
+  display:inline;
+  width: 100%
+}
+ul.nav li a{
+  float:right;
+  border:0
+  width:6em
+  text-align: center;
+  padding: 0 0.2em 0.2em 0;
+  text-decoration:none;
+}
+
+a{
+  display:block;
+  padding:8px;
+  background-color:black
+  text-decoration:none;
+  color:white;
+}
+
+.nav{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:white;
+  display:flex;
+  flex-direction:row;
+  align-items: flex-end;
+  justify-content:flex-start;
+}
+
+#logo{
+  font-family:'Nova Slim', cursive;
+  color:#F00D0D;
+  font-size:30px;
+}
+
+h1{
+  font-size: 6.5em;
+  text-align:center;
+  font-family: 'Nova Slim', cursive;
+  color:#F00D0D;
+  margin-top:1em;
+}
+
+h2{
+  font-family:'Lato', sans-serif;
+  color:white;
+  font-size:20px;
+  text-align:center;
+}
+
+body{
+  background-color:black;
+}
+
+#sub2{
+  text-align:center;
+  color:white;
+  font-family:'Lato', sans-serif;
+  margin-bottom:300px;
+}
+
+.par1{
+  color:white;
+}
+
+h3{
+  text-align:center;
+  color:white;
+  font-size: 2em;
+  font-family: 'Lato', sans-serif;
+}
+
+img{
+  margin-top: 10em;
+  image-resolution: from-image;
+  margin:0;
+  opacity:1.0;
+  transition:width 2s, height 2s, border-radius 4s;
+	border-radius:20px;
+	position:relative;
+	transition-timing-function: ease-out;
+}
+
+p.sub{
+  text-align:center;
+  color:white;
+  font-size:22px;
+  font-family: 'Lato', sans-serif;
+  margin-right:80px;
+}
+
+ul.p1 li{
+  display:inline;
+}
+
+ul.p2 li{
+  display:inline;
+  margin-top: 300px;
+}
+
+h4{
+  text-align:center;
+  color:white;
+  font-size: 2.3em;
+  font-family: 'Lato', sans-serif;
+  margin-top: 350px;
+}
+
+p.sub2{
+  text-align:center;
+  color:white;
+  font-size:22px;
+  font-family: 'Lato', sans-serif;
+}
+
+ul.p3 li{
+  display:inline;
+  margin-top: 100px;
+}
+
+h5{
+  text-align:center;
+  color:white;
+  font-size: 2.4em;
+  font-family: 'Lato', sans-serif;
+  margin-top: 350px;
+}
+
+p.sub3{
+  text-align:center;
+  color:white;
+  font-size:22px;
+  font-family: 'Lato', sans-serif;
+}
+
+ul.pp li{
+  display:inline;
+}
+p.ttl{
+  font-size:1.3em;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 300px;
+}
+
+p.txt{
+  font-size:1em;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+p.baixe{
+  text-align:center;
+  color:white;
+  margin-top:200px;
+  font-family: 'Lato', sans-serif;
+  font-size: 2em;
+}
